@@ -13,5 +13,7 @@ steps:
 images: 
  - "gcr.io/${PROJECT_ID}/${_SERVICE}"
 
+tags: ["${_SERVICE}"]
+
 substitutions:
     _REGION: us-central1
